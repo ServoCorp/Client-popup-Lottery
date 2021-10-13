@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background: #202020;
+}
+
+body .mainPop {
+  background: #1a3c69;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60vh;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
