@@ -13,4 +13,31 @@ body .mainPop {
   width: 60vh;
   margin: 0 auto;
 }
+
+body .logo {
+  width: 10vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 3vh;
+}
+
+body .under {
+  font-size: 2.5vh;
+}
+
+body .scratchOff {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+body .popupContent {
+  text-align: center;
+}
+
+body .footerText {
+  font-size: 2vh;
+}
 /*# sourceMappingURL=style.css.map */
