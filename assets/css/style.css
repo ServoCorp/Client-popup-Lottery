@@ -46,7 +46,7 @@ body .footerText {
 }
 
 body .topLayer {
-  background: url(../img/topLayer.png);
+  background: url(../img/topLayer.png) center fixed;
   background-size: contain;
   border-radius: 20px 20px 20px 20px;
   width: 20vw;
