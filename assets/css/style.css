@@ -33,11 +33,23 @@ body .scratchOff {
           margin-block-end: 0;
 }
 
+body .scratch {
+  padding-top: 2vh;
+}
+
 body .popupContent {
   text-align: center;
 }
 
 body .footerText {
   font-size: 2vh;
+}
+
+body .topLayer {
+  background: url(../img/topLayer.png);
+  background-size: contain;
+  border-radius: 20px 20px 20px 20px;
+  width: 20vw;
+  height: 40vh;
 }
 /*# sourceMappingURL=style.css.map */
