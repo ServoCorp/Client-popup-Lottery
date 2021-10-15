@@ -6,7 +6,7 @@ img = new Image();
 
 
 
-if (brushRadius < 10) { brushRadius = 10 }
+if (brushRadius < 20) { brushRadius = 20 }
 
 img.onload = function(){  
   bridgeCanvas.imageSmoothingEnabled = false;

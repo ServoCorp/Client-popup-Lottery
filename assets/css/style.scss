@@ -18,6 +18,10 @@ body {
         margin: 0 auto;
         padding-top: 3vh;
         }
+    .revealTxt {
+        width: 20vw;
+        height: auto;
+        }
     .under {
         font-size: 2.5vh;
         }
@@ -25,7 +29,7 @@ body {
         margin-block-end: 0;
         }
     .scratch {
-        padding-top: 2vh;
+        padding-top: 5vh;
         display: flex;
         justify-content: center;
         }
@@ -33,7 +37,8 @@ body {
         text-align: center;
         }
     .footerText {
-        font-size: 2vh
+        font-size: 2vh;
+        color: #fff;
         }
     #topLayer {
         background: url(../img/prize.png)no-repeat center center;  
