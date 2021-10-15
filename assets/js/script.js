@@ -3,10 +3,15 @@ bridgeCanvas = bridge.getContext('2d'),
 brushRadius = (bridge.width / 100) * 5,
 img = new Image();
 
+
+
+
 if (brushRadius < 10) { brushRadius = 10 }
 
 img.onload = function(){  
+  bridgeCanvas.imageSmoothingEnabled = false;
 	bridgeCanvas.drawImage(img, 0, 0, topLayer.width, topLayer.height);
+  
 }
 img.loc = './assets/img/'; // this is the location to the file for top scratch off image
 img.filename = 'topLayer.png'; // CHANGE NAME OF FILE HERE. THIS IS THE TOP OVERLAY (SCRATCH OFF IMAGE)
