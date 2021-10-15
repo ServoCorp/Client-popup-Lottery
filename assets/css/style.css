@@ -51,11 +51,11 @@ body .footerText {
   font-size: 2vh;
 }
 
-body .topLayer {
-  background: url(../img/topLayer.png) center fixed;
+body #topLayer {
+  background: url(../img/prize.png) no-repeat center center;
   background-size: contain;
   border-radius: 20px 20px 20px 20px;
-  width: 20vw;
-  height: 40vh;
+  width: 18vw;
+  height: 35vh;
 }
 /*# sourceMappingURL=style.css.map */
