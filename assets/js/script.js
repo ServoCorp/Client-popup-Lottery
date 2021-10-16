@@ -5,7 +5,6 @@ img = new Image();
 
 
 
-
 if (brushRadius < 20) { brushRadius = 20 }
 
 img.onload = function(){  
@@ -64,3 +63,7 @@ topLayer.addEventListener("touchmove", function(e) {
         drawDot(brushPos.x, brushPos.y);
     }
 }, false);
+
+function popUp(e) {
+    console.log(e)
+}
