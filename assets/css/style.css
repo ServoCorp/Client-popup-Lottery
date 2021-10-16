@@ -52,6 +52,10 @@ body .popupContent {
   text-align: center;
 }
 
+body .popUp {
+  margin-top: 10vh;
+}
+
 body .footerText {
   font-size: 2vh;
   color: #fff;
