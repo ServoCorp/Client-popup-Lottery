@@ -102,10 +102,4 @@ body .close-button:after {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-
-body .close-button:hover:before,
-body .close-button:hover:after {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
 /*# sourceMappingURL=style.css.map */
