@@ -1,5 +1,5 @@
 //Imports
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 body {
@@ -8,7 +8,7 @@ body {
         background: #1a3c69;
         display: flex;
         justify-content: center;
-        width: 60vh;
+        width: 21vw;
         margin: 0 auto;
         }
     .logo {
@@ -19,7 +19,7 @@ body {
         padding-top: 3vh;
         }
     .revealTxt {
-        width: 20vw;
+        width: 19vw;
         height: auto;
         }
     .under {
@@ -40,15 +40,46 @@ body {
         margin-top: 10vh;
         }
     .footerText {
-        font-size: 2vh;
+        font-size: 1.5vh;
         color: #fff;
+        font-family: 'Roboto', sans-serif;
         }
     #topLayer {
         background: url(../img/prize.png)no-repeat center center;  
         background-size: contain;
         border-radius: 20px 20px 20px 20px;
-        width: 18vw;
-        height: 35vh;
+        width: 15vw;
+        height: 27vh;
+        }
+    .close-button {
+        height: 7vh;
+        width: 3vh;
+        position: relative;
+        float: right;
+        -webkit-box-sizing: border-box;
+        line-height: 50px;
+        }
+    .close-button:before,
+    .close-button:after {
+        transform: rotate(-45deg);
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -5px;
+        margin-left: -25px;
+        display: block;
+        height: 0.2vh;
+        width: 2vw;
+        background-color: #fff;
+        transition: all 0.2s ease-out;
+        }
+    .close-button:after {
+        transform: rotate(45deg);
+        }
+    .close-button:hover:before,
+    .close-button:hover:after {
+        transform: rotate(0deg);
         }
 
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
   background: #202020;
 }
@@ -10,7 +11,7 @@ body .mainPop {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 60vh;
+  width: 21vw;
   margin: 0 auto;
 }
 
@@ -25,7 +26,7 @@ body .logo {
 }
 
 body .revealTxt {
-  width: 20vw;
+  width: 19vw;
   height: auto;
 }
 
@@ -57,15 +58,54 @@ body .popUp {
 }
 
 body .footerText {
-  font-size: 2vh;
+  font-size: 1.5vh;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 body #topLayer {
   background: url(../img/prize.png) no-repeat center center;
   background-size: contain;
   border-radius: 20px 20px 20px 20px;
-  width: 18vw;
-  height: 35vh;
+  width: 15vw;
+  height: 27vh;
+}
+
+body .close-button {
+  height: 7vh;
+  width: 3vh;
+  position: relative;
+  float: right;
+  -webkit-box-sizing: border-box;
+  line-height: 50px;
+}
+
+body .close-button:before,
+body .close-button:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -25px;
+  display: block;
+  height: 0.2vh;
+  width: 2vw;
+  background-color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+body .close-button:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .close-button:hover:before,
+body .close-button:hover:after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 /*# sourceMappingURL=style.css.map */
