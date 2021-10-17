@@ -64,12 +64,20 @@ topLayer.addEventListener("touchmove", function(e) {
     }
 }, false);
 
-function popUp() {
-    const popUp = document.getElementsByClassName("popUp");
+const popup = function mypopUp() {
+
+    const popUp = document.getElementsByClassName("popUp")[0];
     
     popUp.style.display = 'block';
-    
-    
-    //console.log(popUp)
+
 }
-//setTimeout("popUp()", 3000) // pops up after 3 seconds
+
+function popupClose() {
+    const popUp = document.getElementsByClassName("popUp")[0];
+    
+    popUp.style.display = 'none';
+}
+
+function loadPop() {
+    setTimeout(popup, 5000); 
+}

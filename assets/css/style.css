@@ -55,6 +55,7 @@ body .popupContent {
 
 body .popUp {
   margin-top: 10vh;
+  display: none;
 }
 
 body .footerText {
