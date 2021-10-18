@@ -62,7 +62,6 @@ body {
 
     .close-button {
         height: 7vh;
-        width: 3vh;
         margin-right: -4vw;
         position: relative;
         float: right;
@@ -93,3 +92,8 @@ body {
         }
 
 }
+
+//Media Querys :O
+@media screen and (max-height: 650px) {
+
+  }
