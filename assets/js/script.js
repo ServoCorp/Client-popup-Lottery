@@ -79,5 +79,5 @@ function popupClose() {
 }
 
 function loadPop() {
-    setTimeout(popup, 5000); 
+    setTimeout(popup, 1000); 
 }

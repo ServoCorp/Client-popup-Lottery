@@ -11,22 +11,24 @@ body .mainPop {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 21vw;
+  width: 21.8vw;
+  height: 43.1vh;
   margin: 0 auto;
 }
 
 body .logo {
-  width: 10vw;
+  width: 6vw;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  padding-top: 3vh;
+  padding-top: 2vh;
 }
 
 body .revealTxt {
-  width: 19vw;
+  width: 10vw;
+  padding-top: 2vh;
   height: auto;
 }
 
@@ -40,13 +42,14 @@ body .scratchOff {
 }
 
 body .scratch {
-  padding-top: 5vh;
+  padding-top: 3vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: url(https://i.ibb.co/GvjQjbH/cursor-32x32.png) 4 12, auto;
 }
 
 body .popupContent {
@@ -64,17 +67,22 @@ body .footerText {
   font-family: 'Roboto', sans-serif;
 }
 
+body .popupFooter {
+  padding-top: 2vh;
+}
+
 body #topLayer {
   background: url(../img/prize.png) no-repeat center center;
   background-size: contain;
   border-radius: 20px 20px 20px 20px;
-  width: 15vw;
-  height: 27vh;
+  width: 10vw;
+  height: 18vh;
 }
 
 body .close-button {
   height: 7vh;
   width: 3vh;
+  margin-right: -4vw;
   position: relative;
   float: right;
   -webkit-box-sizing: border-box;
