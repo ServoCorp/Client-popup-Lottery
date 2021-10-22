@@ -17,6 +17,7 @@ body {
         height: 5vh;
         display: flex;
         margin: 0 auto;
+        padding-top: 1vh;
         }
     .revealTxt {
         width: 10vw;
@@ -48,7 +49,6 @@ body {
         font-family: 'Roboto', sans-serif;
         }
     .popupFooter {
-        padding-top: 2vh;
         }
     #topLayer {
         background: url(../img/prize.png)no-repeat center center;  
