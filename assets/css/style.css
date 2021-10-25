@@ -76,11 +76,8 @@ body #topLayer {
 }
 
 body .close-button {
-  height: 65px;
-  margin-right: -70px;
-  position: relative;
-  float: right;
-  -webkit-box-sizing: border-box;
+  position: fixed;
+  padding-left: 190px;
   line-height: 50px;
 }
 
@@ -90,8 +87,7 @@ body .close-button:after {
           transform: rotate(-45deg);
   content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 32px;
   margin-top: -9px;
   margin-left: -17px;
   display: block;
