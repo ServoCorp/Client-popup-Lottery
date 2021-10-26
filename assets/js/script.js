@@ -16,7 +16,7 @@ img.loc = './assets/img/'; // this is the location to the file for top scratch o
 img.filename = 'topLayer.png'; // CHANGE NAME OF FILE HERE. THIS IS THE TOP OVERLAY (SCRATCH OFF IMAGE)
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
-	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
+	img.src = img.loc + nameParts[0]+""+"."+nameParts[1];
 } else {
 	img.src = img.loc + img.filename;
 }
